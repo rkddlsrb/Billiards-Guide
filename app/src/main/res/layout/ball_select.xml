@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:layout_width="350dp"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="내가 칠 당구공은?"
+            android:textSize = "25dp"
+            android:textStyle="bold"
+            android:background="@drawable/edge"/>
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="1dp"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp">
+
+        <ImageButton
+            android:id="@+id/yb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/yball"/>
+
+        <ImageButton
+            android:id="@+id/wb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/wball"/>
+    </LinearLayout>
+
+</LinearLayout>
